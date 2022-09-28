@@ -1,0 +1,48 @@
+body{
+  background: rgb(237, 224, 223);
+  background: radial-gradient(circle, rgb(254, 128, 111) 0%, rgba(51,5,22,1) 100%);
+}
+
+.App{
+  background: rgb(191, 231, 245);
+background: radial-gradient(circle, rgb(220, 242, 251) 0%, rgb(185, 157, 157) 100%);
+  opacity: 0.95;
+  min-height: 500px;
+  width: 400px;
+  margin: 110px auto;
+  border-radius: 12px;
+  border: 2px dotted; 
+  border-color: rgba(50, 7, 0, 0.582);
+}
+
+#todo-form input{
+  background: radial-gradient(circle, rgb(103, 142, 196) 0%, rgba(51, 36, 219, 0.582) 100%);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 12px;
+  color: white;
+}
+
+#todo-form input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+
+#todo-form input:focus, #todo-form button:focus{
+  outline: none;
+}
+
+#todo-form button{
+  height: 50px;
+  border-radius: 12px;
+  width: 100px;
+  font-size: 18px;
+  background-color: rgb(208, 68, 22);
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
